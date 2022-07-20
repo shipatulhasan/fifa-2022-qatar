@@ -113,7 +113,7 @@ img{
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
     background: #161616;
     padding: 30px 0;
@@ -347,7 +347,7 @@ li a{
     .menu {
         padding: 20px 0;
     }
-    .menu-btn a {
+    .menu a {
         width: 175px;
         padding: 8px;
         font-size: 14px;
