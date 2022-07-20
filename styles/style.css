@@ -188,9 +188,6 @@ img{
 /*******
  Fotter Css 
 **********/
-.wrapper > footer{
-    gap: 0;
-}
 footer{
     grid-column: 1/-1;
     background: #161616;
@@ -376,8 +373,9 @@ li a{
 @media (max-width:480px){
     .wrapper{
         grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
     }
-    .hero, .sidebar, .main-content{
+    .hero, .main-content{
         margin: 20px;
     }
     .banner{
@@ -388,6 +386,9 @@ li a{
     }
     .text-content {
         padding: 40px 0 10px;
+    }
+    .main-content{
+        padding: 0 0 30px;
     }
     .blogs {
         grid-template-columns: repeat(1, 1fr);
@@ -401,8 +402,4 @@ li a{
     .socials {
         margin-top: 20px;
     }
-}
-@media (max-width:400px){
-
-
 }
