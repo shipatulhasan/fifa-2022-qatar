@@ -173,11 +173,6 @@ img{
     border-radius: 5px;
     box-shadow: -2px 2px 0 #dc143c;
 }
-.categories:hover .thumbnail img{
-    transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-
-}
 .title{
     font-size: 14px;
     line-height: 1.5em;
