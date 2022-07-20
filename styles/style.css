@@ -90,6 +90,13 @@ img{
     background: no-repeat url(../img/banner.png);
     background-position: bottom left;
     background-size: contain;
+    filter: grayscale(80%);
+    -webkit-filter: grayscale(80%);
+    transition: filter 2s linear;
+}
+.hero:hover .banner{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 }
 
 /**********
