@@ -111,7 +111,7 @@ img{
 }
 .menu {
     display: flex;
-    flex-flow: wrap column;
+    flex-flow: column;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
@@ -304,7 +304,7 @@ li a{
         font-size: 14px;
     }
     .menu {
-        flex-flow: wrap row;
+        flex-flow: row;
         background: transparent;
     }
     .menu a {
@@ -347,10 +347,10 @@ li a{
     .menu {
         padding: 20px 0;
     }
-    .menu a{
-        padding: 12px;
-        width: 150px;
-        font-size: 12px;
+    .menu-btn a {
+        width: 175px;
+        padding: 8px;
+        font-size: 14px;
     }
     .blogs{
         grid-template-columns: repeat(2, 1fr);
