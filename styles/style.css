@@ -358,6 +358,9 @@ li a{
     .tablet{
         display: block;
     }
+    .d-none{
+        display: none;
+    }
 }
 @media (max-width:600px){
     .wrapper {
@@ -379,9 +382,6 @@ li a{
     }
     .menu {
         flex-flow: wrap column;
-    }
-    .tablet{
-        display: none;
     }
     
 }
@@ -411,6 +411,12 @@ li a{
 
     .blogs {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .tablet{
+        display: none;
+    }
+    .d-none{
+        display: block;
     }
     .footer-container {
         padding: 30px 0;
